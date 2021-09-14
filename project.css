@@ -1,0 +1,244 @@
+ body{
+    
+    background-image:url("bg1.png");
+    background-size: cover;
+    
+}
+.button {
+    width:7cm;
+    border-style:ridge;
+    border-width: 0mm;
+    border-radius:8mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:transparent;
+    color: lightcoral;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    cursor:pointer;
+    margin-left:23%;
+}
+.button1 {
+    width: 7cm;
+    border-style:ridge;
+    border-width: 0mm;
+    border-radius:8mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:transparent;
+    color: lightcoral;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    cursor:pointer;
+    margin-bottom: 3%;
+    margin-left:20%
+}
+.button1:active,.button3:active,.button:active{
+    transform: translateY(3px);
+
+}
+.button2:hover {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.356),0 17px 50px 0 rgba(240, 128, 128, 0.527);
+}
+.button3{
+    color: lightcoral;
+    font-size: 5mm;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 3cm;
+    border-style: dotted;
+    border-color: rgba(240, 128, 128, 0.219);
+    border-radius: 25px;
+    border-width:1mm ;
+    background-image: url("bg.jpg");
+
+}
+.tlo{
+    border-style: solid none solid none;
+    border-width: 2mm;
+    border-color: lightcoral;
+    border-radius: 4mm;
+    background-image: url("bg.jpg");
+    background-position: left bottom;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    margin-top:50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:lightcoral;
+    text-align: center;
+    font-size:5cm;
+    border-color: lightcoral;
+    border-style: double solid double solid;
+    border-width: 1cm;
+    border-radius: 8mm;
+    letter-spacing: 10px;
+    margin-bottom: 3%;
+}
+h2{
+    text-decoration-line: underline ;
+    text-decoration-style: dotted;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(206,206,206);
+    text-align: center;
+}
+p{
+    margin-left:5px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(206, 206, 206);
+    font-size: 0.50cm;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+}
+ol{
+    font-family:sans-serif;
+    color:rgb(187, 187, 187);
+    font-size: 0.5cm;
+    
+}
+ul{
+    font-family: sans-serif;
+    color: rgb(187, 187, 187);
+    font-size: 0.5cm;
+}
+hr{
+    color: lightcoral;
+}
+img{
+    transition: transform .4s;
+    border-style: double;
+    border-color: lightcoral;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-bottom: 1%;
+}
+img:hover{
+    transform: scale(1.2);
+    
+}
+z{
+    margin-left: 0.25%;
+    color:rgb(187, 187, 187) ;
+    font-family: sans-serif;
+}
+d{
+    font-family: sans-serif;
+    margin-left: 8%;
+    color:rgb(187, 187, 187) ;
+}
+.cytat{
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 1%;
+    margin-left:11%;
+    margin-right:52%;
+    background-image: url("bg1.png");
+    border-style:ridge;
+    border-radius: 2mm;
+    border-color: lightcoral;
+    border-width: 0.5mm;
+}
+.uek{
+    margin-top: -4.25%;
+    margin-right: 5%;
+    float:right;
+}
+th, td {
+    margin-left: 15%;
+    border-collapse: collapse;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: transparent;
+}
+tr:hover {
+    background-color: rgba(240, 128, 128, 0.219);
+}
+th {
+    padding-left: 5mm;
+    padding-right: 5mm;
+    background-image: url("bg1.png");
+    color:lightcoral;
+    text-transform: capitalize;
+}
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(187,187,187);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+tr{
+    border-style: solid;
+    border-color: rgba(240, 128, 128, 0.219);
+}
+#char{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    background-image: url("bg1.png");
+}
+#char1{
+    color:rgb(206, 206, 206);
+}
+#char2{
+    border-style: solid;
+    border-color: rgba(240, 128, 128, 0.219);
+}
+#char1:hover{
+    background-color:transparent;
+}
+#char2:hover{
+    background-color: rgba(0, 0, 0, 0.329);
+
+}
+#klik{
+    border-style:none;
+    background-color:rgba(240, 128, 128, 0.13)
+}
+label{
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(206,206,206);
+    display: block;
+    text-align: center;
+}
+#type{
+    border-style: groove;
+    border-radius: 1cm;
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3cm;
+    border-color: lightcoral;
+    border-style:ridge;
+    border-width: 0.75mm;
+    border-radius:5mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:transparent;
+    color: lightcoral;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    cursor:pointer;
+    margin-bottom:3%;
+}
+#search:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+#search:active{
+    transform: scale(0.90,0.90);
+}
